@@ -1,11 +1,6 @@
 import "./App.css";
 import Header from "./common/header/Header";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Routes,
-} from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import About from "./about/About";
 import CourseHome from "./allcourses/CourseHome";
 import Team from "./team/Team";
